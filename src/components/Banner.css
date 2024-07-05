@@ -1,0 +1,6 @@
+.banner {
+  background: linear-gradient(45deg, #121212, grey, gray, black);
+}
+.banner img {
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+.card img {
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 8px;
+}
+
+.card {
+  width: 300px;
+  border-radius: 8px;
+  background-color: rgb(58, 58, 58);
+  margin: 50px auto;
+}
+
+.grifado {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.card button {
+  background-color: yellow;
+  padding: 8px 20px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 10%;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  color: #121212;
+  font-size: 16px;
+}
+
+.card button:hover {
+  color: black;
+}
+
+.card h3, p, h4 {
+  padding-bottom: 12px;
+  padding-left: 10px;
+}
+
+.card h3, h4 {
+  color: yellow;
+}
+.card h4 {
+  font-size: 18px;
+}
+
+.card p {
+  color: white;
+  text-align: left;
+}
