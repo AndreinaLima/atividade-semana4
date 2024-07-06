@@ -3,12 +3,11 @@ footer {
   background-color: rgb(58, 58, 58);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 footer p {
   font-size: 16px;
-  display: flex;
   color: white;
   padding: 20px 0 0 0;
 }

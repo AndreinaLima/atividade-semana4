@@ -7,7 +7,7 @@ function Cabecalho() {
    }
   return (
     <header>
-      <p>SEU LANCHE</p>
+      <p>LANCHE BOM</p>
       <nav className="nav-links">
         <ul>
           <li>
