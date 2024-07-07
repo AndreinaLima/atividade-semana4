@@ -1,6 +1,6 @@
 import "./Banner.css"
-
 import banner from "../assets/banner.png"
+
 function Banner() {
   return (
     <section className="banner">

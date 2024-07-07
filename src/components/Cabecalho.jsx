@@ -1,9 +1,8 @@
-/* eslint-disable react/prop-types */
 import "./Cabecalho.css"
 
 function Cabecalho() {
    function handleClick() {
-     alert("Você fez seu log-in no site SEU LANCHE")
+     alert("Você fez seu log-in no site BOM LANCHE")
    }
   return (
     <header>
