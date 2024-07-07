@@ -14,7 +14,6 @@ header .logo  {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 1px;
   font-family: "Bona Nova SC", serif;
   color: white;
   text-shadow: 1px 2px 3px black;
@@ -36,7 +35,6 @@ header a {
   font-size: 16px;
   color: white;
   transition: all 0.2s linear;
-  padding: 1px;
   border-bottom: 1px solid transparent;
 }
 
