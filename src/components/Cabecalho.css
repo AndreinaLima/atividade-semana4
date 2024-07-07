@@ -5,9 +5,15 @@ header {
   justify-content: space-around;
 }
 
-header p {
+header .logo img {
+  width: 50px;
+  
+}
+
+header .logo  {
   display: flex;
   align-items: center;
+  gap: 10px;
   padding: 1px;
   font-family: "Bona Nova SC", serif;
   color: white;
@@ -60,4 +66,11 @@ header .material-symbols-outlined {
   display: flex;
   align-items: center;
   margin-left: 10px;
+}
+
+@media (max-width: 480px) {
+
+  .logo p {
+    display: none;
+  }
 }

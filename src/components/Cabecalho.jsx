@@ -1,4 +1,5 @@
 import "./Cabecalho.css"
+import logo from "../../public/logo.png"
 
 function Cabecalho() {
    function handleClick() {
@@ -6,7 +7,11 @@ function Cabecalho() {
    }
   return (
     <header>
-      <p>BOM LANCHE</p>
+      <div className="logo">
+        <img src={logo} alt="Imagem da logo" />
+        <p>BOM LANCHE</p>
+      </div>
+
       <nav className="nav-links">
         <ul>
           <li>
