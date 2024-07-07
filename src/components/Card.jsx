@@ -7,7 +7,7 @@ function Card(props) {
     <article className="card">
       <img src={props.imagem} alt="Imagem de um hambúrguer" />
       <h3>{props.nome}</h3>
-      <p>{props.descricao}</p>
+      <p className="descricao">{props.descricao}</p>
       {props.desconto > 0 && (
         <p className="grifado">R${props.preco.toFixed(2)}</p>
       )}
