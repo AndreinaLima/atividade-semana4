@@ -14,6 +14,7 @@
 .card .grifado {
   text-decoration: line-through;
   color: grey;
+  font-size: .9rem;
 }
 
 .card button {
@@ -39,7 +40,7 @@
 .card h3, .card p, .card h4 {
   width: 80%;
   margin: auto;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .card h3, .card h4 {
