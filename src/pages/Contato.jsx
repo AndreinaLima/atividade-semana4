@@ -15,8 +15,11 @@ function Contato() {
 
   return (
     <main>
-      <form className="form-section" onSubmit={handleSubmit(salvarContato)}>
-        <h1 className="mt-5"> Fale conosco</h1>
+      <form
+        className="form-section custom-form mt-5"
+        onSubmit={handleSubmit(salvarContato)}
+      >
+        <h1> Fale conosco</h1>
         <hr />
         <div className="mb-2">
           <label htmlFor="nome">Nome</label>
@@ -45,7 +48,7 @@ function Contato() {
             <small className="invalid">{errors.email.message}</small>
           )}
         </div>
-        <div className="mt-2">
+        <div>
           <label htmlFor="feedback">Feedback</label>
           <textarea
             id="feedback"
@@ -58,7 +61,7 @@ function Contato() {
             <small className="invalid">{errors.feedback.message}</small>
           )}
         </div>
-        <div className="mt-4">
+        <div className="mt-2">
           <label htmlFor="motivo">Motivo do contato</label>
           <select id="motivo" className="form-select" {...register("motivo")}>
             <option value="Produtos">Produtos</option>
@@ -68,9 +71,20 @@ function Contato() {
             <option value="Outro">Outro</option>
           </select>
         </div>
-        <Button className=" w-100 mt-3 mb-5" variant="warning" type="submit">
+        <Button className=" w-100 mt-3 mb-3" variant="warning" type="submit">
           Enviar
         </Button>
+        <div className="icon-container">
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
       </form>
     </main>
   )

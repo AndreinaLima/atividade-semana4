@@ -15,7 +15,10 @@ function Cadastro() {
 
   return (
     <main>
-      <form className="form-section mt-5" onSubmit={handleSubmit(cadastrar)}>
+      <form
+        className="form-section custom-form mt-5"
+        onSubmit={handleSubmit(cadastrar)}
+      >
         <h1>Cadastro</h1>
         <hr />
         <div className="mb-2">
@@ -45,7 +48,7 @@ function Cadastro() {
             <small className="invalid">{errors.email.message}</small>
           )}
         </div>
-        <div className="mt-2">
+        <div className="mb-2">
           <label htmlFor="dataNascimento">Data de nascimento</label>
           <input
             type="date"
@@ -59,7 +62,7 @@ function Cadastro() {
             <small className="invalid">{errors.dataNascimento.message}</small>
           )}
         </div>
-        <div className="mt-2">
+        <div className="mb-2">
           <label htmlFor="senha">Senha</label>
           <input
             type="password"
@@ -77,9 +80,20 @@ function Cadastro() {
         <Button variant="dark" className="mt-2 mb-1 w-100" type="submit">
           Entrar
         </Button>
-        <Button variant="warning" className="mb-5 w-100" type="submit">
+        <Button variant="warning" className="mb-3 w-100" type="submit">
           Entrar com o google
         </Button>
+        <div className="icon-container">
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </div>
       </form>
     </main>
   )

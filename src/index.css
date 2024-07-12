@@ -4,9 +4,33 @@
 
 
 .form-section {
-  width: 300px;
+  width: 400px;
   margin: 16px auto;
 }
+
+.custom-form {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form h1 {
+  color: black;
+  text-align: center;
+}
+
+.custom-form .form-control {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.custom-form .invalid {
+  color: red;
+  font-size: 0.9em;
+}
+
 
 .invalid {
   color: red;
@@ -27,3 +51,20 @@ body {
 h2 {
   font-family: "Bona Nova SC", serif;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 36px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .custom-form  {
+    width: 90%;
+    
+  }
+}
+
+
