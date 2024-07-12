@@ -19,7 +19,7 @@ function Contato() {
         className="form-section custom-form mt-5"
         onSubmit={handleSubmit(salvarContato)}
       >
-        <h1> Fale conosco</h1>
+        <h1> Fale Conosco</h1>
         <hr />
         <div className="mb-2">
           <label htmlFor="nome">Nome</label>

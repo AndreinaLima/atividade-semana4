@@ -15,11 +15,6 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.custom-form h1 {
-  color: black;
-  text-align: center;
-}
-
 .custom-form .form-control {
   border-radius: 5px;
   margin-bottom: 10px;
@@ -50,6 +45,11 @@ body {
 
 h2 {
   font-family: "Bona Nova SC", serif;
+}
+
+h1 {
+   font-family: "Bona Nova SC", serif;
+   color: #121212;
 }
 
 .icon-container {

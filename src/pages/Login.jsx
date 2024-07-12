@@ -19,7 +19,7 @@ function Login() {
         className="form-section custom-form mt-5"
         onSubmit={handleSubmit(entrar)}
       >
-        <h1>Faça o seu Login</h1>
+        <h1>Login</h1>
         <hr />
         <div className="mb-2">
           <label htmlFor="email">Email</label>
