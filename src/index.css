@@ -61,6 +61,16 @@ h2 {
   cursor: pointer;
 }
 
+.icon-container ion-icon {
+  color: #121212;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-container ion-icon:hover {
+  transform: scale(1.1);
+  color: black;
+}
+
 @media (max-width: 480px) {
   .custom-form  {
     width: 90%;
