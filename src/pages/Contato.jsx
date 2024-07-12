@@ -74,7 +74,11 @@ function Contato() {
             <option value="Outro">Outro</option>
           </select>
         </div>
-        <Button className=" w-100 mt-3 mb-3" variant="warning" type="submit">
+        <Button
+          className=" w-100 mt-3 mb-3"
+          variant="outline-dark"
+          type="submit"
+        >
           Enviar
         </Button>
         <div className="icon-container">

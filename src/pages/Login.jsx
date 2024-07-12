@@ -50,12 +50,10 @@ function Login() {
             <small className="invalid">{errors.senha.message}</small>
           )}
         </div>
-        <Button variant="dark" className="mt-2 mb-1 w-100" type="submit">
+        <Button variant="outline-dark" className="mt-2 mb-3 w-100" type="submit">
           Entrar
         </Button>
-        <Button variant="warning" className="mb-3 w-100" type="submit">
-          Entrar com o google
-        </Button>
+        
         <div className="icon-container">
           <a href="#">
             <ion-icon name="logo-instagram"></ion-icon>
