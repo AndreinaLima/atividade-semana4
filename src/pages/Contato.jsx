@@ -26,6 +26,7 @@ function Contato() {
           <input
             type="text"
             id="nome"
+            placeholder="Digite seu nome:"
             className="form-control"
             {...register("nome", {
               required: "O nome é obrigatório!",
@@ -41,6 +42,7 @@ function Contato() {
           <input
             type="text"
             id="email"
+            placeholder="Digite seu email"
             className="form-control"
             {...register("email", { required: "O email é obrigatório!" })}
           />
@@ -52,6 +54,7 @@ function Contato() {
           <label htmlFor="feedback">Feedback</label>
           <textarea
             id="feedback"
+            placeholder="Digite seu feedback:"
             className="form-control"
             {...register("feedback", {
               required: "O feedback é obrigatório",

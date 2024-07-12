@@ -26,6 +26,7 @@ function Cadastro() {
           <input
             type="text"
             id="nome"
+            placeholder="Digite seu nome:"
             className="form-control"
             {...register("nome", {
               required: "O nome é obrigatório!",
@@ -41,6 +42,7 @@ function Cadastro() {
           <input
             type="text"
             id="email"
+            placeholder="Digite seu email:"
             className="form-control"
             {...register("email", { required: "O email é obrigatório!" })}
           />
@@ -67,6 +69,7 @@ function Cadastro() {
           <input
             type="password"
             id="senha"
+            placeholder="Digite sua senha:"
             className="form-control"
             {...register("senha", {
               required: "A senha é obrigatória!",

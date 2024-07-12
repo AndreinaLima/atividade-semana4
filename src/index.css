@@ -44,9 +44,10 @@
 }
 
 body {
-    background: linear-gradient(to right, gray, rgb(156, 156, 143));
-
+  background: url('assets/background-cinza.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
+
 
 h2 {
   font-family: "Bona Nova SC", serif;
