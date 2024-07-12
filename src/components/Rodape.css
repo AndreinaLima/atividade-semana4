@@ -17,6 +17,9 @@ footer p {
     height: 60px;
     flex-direction: column;
     padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
   footer p {
   font-size: 12px;
