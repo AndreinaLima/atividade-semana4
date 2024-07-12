@@ -1,36 +1,15 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
 header {
-  display: flex;
-  height: 60px;
   background-color: rgb(58, 58, 58);
-  justify-content: space-around;
 }
 
-header .logo img {
-  width: 50px;
-  
+.logo {
+  max-height: 50px; /* Adjust as needed */
 }
 
-header .logo  {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: "Bona Nova SC", serif;
-  color: white;
-  text-shadow: 1px 2px 3px black;
-}
-
-nav ul{
-  display: flex;
-  list-style: none;
-  align-items: center;
-  gap: 20px;
-}
-
-nav {
-  display: flex;
-}
-
-header a {
+.nav-link {
+  margin: 0 10px; /* Space between links */
   text-decoration: none;
   font-size: 16px;
   color: white;
@@ -38,37 +17,7 @@ header a {
   border-bottom: 1px solid transparent;
 }
 
-header a:hover {
+.nav-link:hover {
   border-bottom: 1px solid yellow;
 }
 
-header button {
-  background-color: yellow;
-  border: none;
-  color: #121212;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s linear;
-  border-radius: 8px;
-  margin-left: 20px;
-  margin: 10px 10px 10px 20px;
-  padding: 0 10px;
-}
-
-header button:hover {
-  color: black;
-}
-
-header .material-symbols-outlined {
-  color: white;
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-}
-
-@media (max-width: 480px) {
-
-  .logo p {
-    display: none;
-  }
-}

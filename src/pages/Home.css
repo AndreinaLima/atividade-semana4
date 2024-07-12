@@ -1,7 +1,7 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-   background: linear-gradient(45deg, #121212, gray);
+  background: linear-gradient(45deg, #121212, gray);
 }
 
 h2 {

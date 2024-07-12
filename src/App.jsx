@@ -1,21 +1,28 @@
-import Banner from "./components/Banner";
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Cabecalho from "./components/Cabecalho"
-import Galeria from "./components/Galeria"
+import Home from "./pages/Home"
+import Contato from "./pages/Contato"
+import Cadastro from "./pages/Cadastro"
+import Login from "./pages/Login"
+import NotFound from "./pages/NotFound"
 import Rodape from "./components/Rodape"
 
 function App() {
   return (
     <>
-      <Cabecalho />
-      <main>
-        <Banner />
-        <Galeria />
-      </main>
-      <footer>
+      <BrowserRouter>
+        <Cabecalho />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/cadastro" element={<Cadastro />} />
+          <Route path="/contato" element={<Contato />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
         <Rodape />
-      </footer>
+      </BrowserRouter>
     </>
   )
 }
 
-export default App;
+export default App
