@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
-
 
 .form-section {
   width: 400px;
@@ -11,8 +9,7 @@
 .custom-form {
   border-radius: 10px;
   padding: 20px;
-  background-color: #ccc;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: white;
 }
 
 .custom-form .form-control {
@@ -25,7 +22,6 @@
   font-size: 0.9em;
 }
 
-
 .invalid {
   color: red;
 }
@@ -33,23 +29,17 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   font-family: "Nunito", sans-serif;
 }
 
 body {
-  background: url('assets/background-cinza.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color: #FFFAE5;
 }
 
-
-h2 {
+h1, h2 {
   font-family: "Bona Nova SC", serif;
-}
-
-h1 {
-   font-family: "Bona Nova SC", serif;
-   color: #121212;
+  color: #FFD700;
 }
 
 .icon-container {
@@ -67,14 +57,11 @@ h1 {
 
 .icon-container ion-icon:hover {
   transform: scale(1.1);
-  color: black;
+  color: #FFD700;
 }
 
 @media (max-width: 480px) {
-  .custom-form  {
+  .custom-form {
     width: 90%;
-    
   }
 }
-
-
