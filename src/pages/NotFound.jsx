@@ -15,7 +15,7 @@ function NotFound() {
           }}
         />
         <h1 className="mt-5 mb-5">Página não encontrada. Error 404.</h1>
-        <Link className="nav-link" to="/">
+        <Link className="link-home" to="/">
           Vá para a página inicial
         </Link>
       </Container>

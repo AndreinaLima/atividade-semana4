@@ -42,6 +42,12 @@ h1, h2 {
   color: #FFD700;
 }
 
+.link-home {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
 .icon-container {
   display: flex;
   justify-content: center;
